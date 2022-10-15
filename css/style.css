@@ -1,39 +1,38 @@
 * {
-  box-sizing: border-box;
+  box-sizing: bb;
 }
 
-.parent {
-  /* border: 5px solid red; */
-
-  display: flex;
-  /* flex-wrap: wrap; */
+.userCard {
+  width: 300px;
+  border: 1px solid red;
+  border-radius: 30px;
+  overflow: hidden;
 }
 
-.child {
-  border: 5px solid blue;
-
-  /* flex-grow: 10; */
-  /* flex-shrink: 0; */
-  /* flex-basis: розмір; */
-
-  /* flex: 0 1 300px; */
-  /* width: 200px; */
+.userCardHeader {
+  height: 150px;
+  background: url(https://images.pexels.com/photos/2531608/pexels-photo-2531608.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
-.child1 {
-  flex: 0 1 200px;
+.userPhoto {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid white;
 }
-.child2 {
-  flex: 0 1 200px;
-  order: -1;
+
+.userName {
 }
-.child3 {
-  flex: 0 1 200px;
+
+.userTagLink {
 }
-.child4 {
-  flex: 0 1 200px;
+
+.userInfo {
 }
-.child5 {
-  flex: 0 1 200px;
-  order: -2;
+
+.socials {
 }

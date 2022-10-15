@@ -1,3 +1,61 @@
 * {
   box-sizing: border-box;
 }
+
+:root {
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.logoContainer {
+  margin-left: auto;
+}
+
+.logo {
+  width: 150px;
+  height: 100px;
+  object-fit: cover;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+  padding: 20px;
+
+  background-color: black;
+
+  color: white;
+}
+
+header > * {
+  flex-grow: 0.5;
+}
+
+.navMenu {
+  text-align: right;
+}
+
+.menu {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.menuItems {
+  display: inline-block;
+
+  margin-left: 10px;
+}
+
+.menuItems > a {
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border: 2px solid white;
+  border-radius: 10px;
+}

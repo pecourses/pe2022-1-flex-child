@@ -13,6 +13,7 @@ a {
 
 .logoContainer {
   margin-left: auto;
+  /* margin-right: 20px; */
 }
 
 .logo {
@@ -26,6 +27,7 @@ header {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  gap: 20px;
 
   padding: 20px;
 
@@ -49,7 +51,9 @@ header > * {
 
 .menuItems {
   display: inline-block;
+}
 
+.menuItems + .menuItems {
   margin-left: 10px;
 }
 
